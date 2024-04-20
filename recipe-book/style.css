@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    
+}
+.header{
+    text-align: center;
+}
+
+h1,li,ul,p{
+    display: inline-block;
+  
+}
+li:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    
+}
+.menu{
+    text-align: center;
+    margin: 50px;
+}
+.soup,.salad,.pasta,.dessert{
+    display: inline-block;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    height: 308px;
+    width:225px;
+    font-style: italic;
+   }
+
+.about{
+    text-align: center;
+    margin: 50px;
+    font-style: italic;
+
+}
+.contact{
+    text-align: center;
+    margin: 50px;
+    font-style: italic;
+
+}
+.title-h{
+    cursor: pointer;
+    
+}
